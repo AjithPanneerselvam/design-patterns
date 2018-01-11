@@ -62,6 +62,7 @@ void Transport :: startRide(){
 
 
 int main(){
+  // Class Transport is coupled with the client and not the implementation
   Transport t;
   t.chooseVehicle();
   t.startRide();
