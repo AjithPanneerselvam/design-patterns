@@ -50,7 +50,7 @@ public:
     if(strcmp("Add", s) == 0)
       marketVal += 1000;
     else{
-      // stockVal is a +ve number
+      // marketVal is a +ve number
       if(marketVal - 1000 >= 0)
         marketVal -= 1000;
     }
